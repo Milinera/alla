@@ -1,0 +1,16 @@
+.mains {
+    background-image: url(/assets/img/mainpage/image1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 270px 0;
+    &_h1 {
+        width: 50%;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 115%;
+        letter-spacing: 0.05em;
+        color: #211d1d;
+    }
+}

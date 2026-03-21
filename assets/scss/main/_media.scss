@@ -1,0 +1,13 @@
+@media (max-width: 1980px) {
+    .container {
+        width: 90%;
+    }
+    .header {
+        &_li {
+            font-size: 1.2rem;
+        }
+        &_mid {
+            height: 120px;
+        }
+    }
+}

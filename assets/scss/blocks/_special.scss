@@ -1,0 +1,69 @@
+.special {
+    margin-top: 230px;
+    &_title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 75px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+    }
+    &_wrapper {
+        margin-top: 70px;
+        background: #dc3429;
+        background-image: url(/assets/img/mainpage/Frame69.png);
+        padding: 150px 0;
+        background-size: contain;
+        background-position: 60%;
+        background-repeat: no-repeat;
+        .container {
+            display: grid;
+            grid-template-columns: 7fr 4fr;
+            gap: 30px;
+            justify-content: space-between;
+        }
+    }
+    &_sup {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 130%;
+        color: #fff;
+    }
+    &_suptitle {
+        margin-top: 30px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 60px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    &_price {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 72px;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    &_but {
+        margin-top: 30px;
+        font-family: var(--font-family);
+        padding: 23px 54px;
+        background: #000;
+        font-weight: 500;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+    &_block {
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('/assets/fonts/Jost-VariableFont_wght.woff2') format('woff2'),
+         url('/assets/fonts/Jost-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('/assets/fonts/Jost-Italic-VariableFont_wght.woff2') format('woff2'),
+         url('/assets/fonts/Jost-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url('/assets/fonts/Commissioner-VariableFont_FLAR,VOLM.woff2') format('woff2'),
+         url('/assets/fonts/Commissioner-VariableFont_FLAR,VOLM.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Felidae';
+    src: url('/assets/fonts/Felidae.woff2') format('woff2'),
+         url('/assets/fonts/Felidae.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --font-family: 'Jost', sans-serif;
+    --second-family: 'Felidae', sans-serif;
+    --third-family: 'Commissioner', sans-serif;
+}

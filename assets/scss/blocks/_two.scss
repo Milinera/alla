@@ -1,0 +1,78 @@
+.two {
+    margin-top: 130px;
+    position: relative;
+    &_block1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        &_img {
+            order: 1;
+            img {
+                object-fit: cover;
+                height: 1000px;
+                width: 100%;
+            }
+        }
+        &_text {
+            order: 2;
+            margin-top: 140px;
+            margin-right: 60px;
+            &_title {
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 75px;
+                line-height: 110%;
+                letter-spacing: 0.05em;
+                color: #dc3429;
+            }
+            &_descr {
+                margin-top: 50px;
+                font-family: var(--font-family);
+                font-weight: 300;
+                font-size: 26px;
+                line-height: 130%;
+                color: #000;
+            }
+        }
+    }
+    &_block2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        &_img {
+            margin-top: -100px;
+            img {
+                object-fit: cover;
+                height: 1000px;
+                width: 100%;
+            }
+        }
+        &_text {
+            margin-top: 200px;
+            margin-right: 60px;
+            &_title {
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 75px;
+                line-height: 110%;
+                letter-spacing: 0.05em;
+                color: #dc3429;
+            }
+            &_descr {
+                margin-top: 50px;
+                font-family: var(--font-family);
+                font-weight: 300;
+                font-size: 26px;
+                line-height: 130%;
+                color: #000;
+            }
+        }
+    }
+    .mac1 {
+        width: 459px;
+        height: 412px;
+        position: absolute;
+        left: 0;
+        bottom: -335px;
+    }
+}

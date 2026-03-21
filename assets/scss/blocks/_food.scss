@@ -1,0 +1,83 @@
+.food {
+    margin-top: 160px;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 75px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+    }
+    &_btn {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 70px;
+    }
+    &_li {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 40px;
+        letter-spacing: -0.03em;
+        text-align: center;
+        color: #b2bcc1;
+        cursor: pointer;
+        &_active {
+            font-weight: 500;
+            color: #dc3429;
+            border-bottom: 3.61px solid #dc3429;
+            padding: 0px 0px 7px;
+        }
+    }
+    &_menu {
+        margin-top: 156px;
+        background: #dc3429;
+        background-image: url(/assets/img/mainpage/mac.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 80px 100px;
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px 140px;
+        position: relative;
+        &_active {
+            display: grid;
+        }
+        &_li {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: auto 1fr auto;
+            gap: 14px;
+            &_title {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 36px;
+                letter-spacing: -0.03em;
+                color: #fff;
+            }
+            &_descr {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 36px;
+                letter-spacing: -0.03em;
+                text-transform: uppercase;
+                text-align: right;
+                color: #fff;
+            }
+            &_line {
+                border-bottom: 1.01px dashed rgba(255, 255, 255, 0.5);
+                margin-bottom: 13px;
+            }
+        }
+    }
+    .mak3 {
+        position: absolute;
+        top: -315px;
+        left: -136px;
+        width: 424px;
+        height: 315px;
+    }
+}
