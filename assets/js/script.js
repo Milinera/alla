@@ -30,7 +30,6 @@ function HideTab() {
         x.classList.remove('food_menu_active');
     })
 }
-console.log(btns, menus)
 btns.forEach((item, index) => {
     item.addEventListener('click', () => {
         HideTab();

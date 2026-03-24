@@ -1,0 +1,82 @@
+.map {
+    margin-top: 200px;
+    &_wrapper {
+        display: grid;
+        grid-template-columns: 0.9fr 1fr;
+        gap: 65px;
+    }
+    &_info {
+        position: relative;
+    }
+    &_title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 130%;
+        color: #dc3429;
+    }
+    &_addres {
+        margin-top: 28px;
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 130%;
+        color: #000;
+    }
+    &_phone {
+        margin-top: 72px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 97px;
+        line-height: 130%;
+        display: block;
+        color: #dc3429;
+    }
+    &_mail {
+        margin-top: 12px;
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 130%;
+        color: #000;
+        display: block;
+    }
+    &_blocks {
+        margin-top: 72px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 60px;
+    }
+    &_block {
+        &_title {
+            font-family: var(--font-family);
+            font-weight: 300;
+            font-size: 38px;
+            line-height: 130%;
+            text-transform: uppercase;
+            color: #b2bcc1;
+        }
+        &_descr {
+            font-family: var(--font-family);
+            font-size: 38px;
+            line-height: 130%;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #dc3429;
+        }
+    }
+    &_soc {
+        margin-top: 80px;
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+    .mac5 {
+        position: absolute;
+        width: 365px;
+        height: 294px;
+        bottom: 0;
+        right: -30px;
+    }
+}

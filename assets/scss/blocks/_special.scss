@@ -10,6 +10,7 @@
         color: #000;
     }
     &_wrapper {
+        position: relative;
         margin-top: 70px;
         background: #dc3429;
         background-image: url(/assets/img/mainpage/Frame69.png);
@@ -65,5 +66,13 @@
             align-items: center;
             justify-content: flex-end;
         }
+    }
+    .mak2 {
+        width: 423px;
+        height: 390px;
+        position: absolute;
+        right: 132px;
+        top: 0;
+        transform: translateY(-100%);
     }
 }

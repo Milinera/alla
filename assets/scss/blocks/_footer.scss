@@ -1,0 +1,43 @@
+.footer {
+    background: #171717;
+    padding: 70px 0;
+    &_menu {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+    &_li {
+        font-family: var(--third-family);
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 130%;
+        color: #fff;
+    }
+    &_info {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+    }
+    &_create {
+        font-family: var(--third-family);
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 130%;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    &_politics {
+        font-family: var(--third-family);
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 130%;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    &_imp {
+        font-family: var(--third-family);
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 130%;
+        color: rgba(255, 255, 255, 0.7);
+    }   
+}

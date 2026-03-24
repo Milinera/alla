@@ -1,0 +1,36 @@
+.hero {
+    margin-top: 20px;
+    background: #dc3429;
+    background-image: url(/assets/img/mainpage/hapkasup.png);
+    padding: 40px 0 87px 0;
+    background-size: cover;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    .bred {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+        display: flex;
+        gap: 10px;
+        &_item {
+            &::after {
+                content: ' /'
+            }
+            &:last-child {
+                &::after {
+                    content: ''
+                }
+            }
+        }
+    }
+    &_title {
+        margin-top: 130px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 90px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}
