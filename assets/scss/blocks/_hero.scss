@@ -34,3 +34,59 @@
         color: #fff;
     }
 }
+
+
+.hero2 {
+    margin-top: 20px;
+    background: #dc3429;
+    background-image: url(/assets/img/mainpage/hapkasup.png);
+    padding: 40px 0 150px 0;
+    background-size: cover;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    .bred {
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 24px;
+        color: #fff;
+        display: flex;
+        gap: 10px;
+        &_item {
+            &::after {
+                content: ' /'
+            }
+            &:last-child {
+                &::after {
+                    content: ''
+                }
+            }
+        }
+    }
+    &_title {
+        margin-top: 62px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 75px;
+        line-height: 115%;
+        letter-spacing: 0.05em;
+        color: #fff;
+    }
+    &_descr {
+        width: 40%;
+        margin-left: 60%;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 130%;
+        color: #fff;
+    }
+}
+
+.photo {
+    height: 787px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

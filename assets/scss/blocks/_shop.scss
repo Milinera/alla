@@ -1,0 +1,86 @@
+.shop {
+    padding-top: 200px;
+    position: relative;
+    .mac14 {
+        width: 459px;
+        height: 412px;
+        position: absolute;
+        top: -200px;
+        left: 0;
+    }
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 75px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+    }
+    &_wrapper {
+        margin-top: 70px;
+        background: #f0faff;
+        padding: 60px 87px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    &_block  {
+        &_title {
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 50px;
+            letter-spacing: 0.05em;
+            color: #dc3429;
+        }
+        &_wrapper {
+            margin-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(220, 52, 41, 0.4);
+            &:first-child {
+                margin-top: 30px;
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+            &_title {
+                display: flex;
+                justify-content: space-between;
+                gap: 40px;
+                &_name {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 26px;
+                    color: #000;
+                }
+                &_price {
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 26px;
+                    letter-spacing: -0.01em;
+                    text-align: right;
+                    color: #000;
+                }
+            }
+            &_descr {
+                font-family: var(--font-family);
+                font-weight: 300;
+                font-size: 20px;
+                letter-spacing: -0.01em;
+                color: #000;
+            }
+        }
+    }
+    &_btn {
+        margin: 0 auto;
+        margin-top: 100px;
+        display: block;
+        width: fit-content;
+        background: #dc3429;
+        padding: 23px 54px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 30px;
+        color: #fff;
+    }
+}

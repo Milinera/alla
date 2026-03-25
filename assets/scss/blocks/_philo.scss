@@ -1,0 +1,53 @@
+.philo {
+    position: relative;
+    &_wrapper {
+        display: grid;
+        grid-template-columns: 6fr 5fr;
+        gap: 160px;
+        justify-content: center;
+        padding: 175px 115px 0 115px;
+    }
+    &_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &_title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+        color: #000;
+    }
+    &_suptitle {
+        margin-top: 50px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 40px;
+        letter-spacing: 0.05em;
+        color: #dc3429;
+    }
+    &_descr {
+        margin-top: 5px;
+        font-family: var(--font-family);
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+        color: #7c7c7c;
+    }
+    &_photo {
+        height: 723px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .mac11 {
+        width: 314px;
+        height: 307px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,109 @@
+.masters {
+    padding-top: 200px;
+    position: relative;
+    &_title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 75px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+    }
+    &_wrapper {
+        margin-top: 80px;
+    }
+    &_photo {
+        height: 600px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &_name {
+        margin-top: 40px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 45px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #dc3429;
+    }
+    &_descr {
+        margin-top: 15px;
+        font-family: var(--third-family);
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+        text-align: center;
+        color: #7c7c7c;
+    }
+    &_btn {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        &_arr {
+            padding: 10px;
+            svg {
+                path {
+                    stroke: #B2BCC1;
+                }
+            }
+            &_active {
+                svg {
+                    path {
+                        stroke: #dc3429;
+                    }
+                }
+            }
+        }
+    }
+    .mac12 {
+        width: 22%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &_slider {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    &_wrapper {
+        display: flex;
+        transition: transform 0.3s ease;
+        margin-top: 80px; // сохраняем исходный отступ
+    }
+
+    &_item {
+        flex: 0 0 calc(100% / 3); // по умолчанию 3 элемента
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    // Адаптив для мобильных устройств
+    @media (max-width: 768px) {
+        &_item {
+            flex: 0 0 100%; // 1 элемент
+        }
+    }
+
+    // Стили для кнопок (добавим класс disabled, если нужно)
+    &_btn {
+        &_arr {
+            user-select: none;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            &.disabled {
+                user-select: none;
+                opacity: 0.4;
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+
