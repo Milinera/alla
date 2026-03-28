@@ -4,6 +4,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-between;
+        justify-items: center;
         gap: 20px;
         align-items: center;
     }
@@ -60,5 +61,8 @@
         color: #fff;
         padding: 22px 32px;
         cursor: pointer;
+    }
+    &_mob {
+        display: none;
     }
 }

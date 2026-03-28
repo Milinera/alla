@@ -3,3 +3,26 @@
     width: 1920px;
     height: 100%;
 }
+
+/* WebKit */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* светлый фон дорожки */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc3429; /* красный ползунок */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b82a21; /* темнее при наведении */
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #dc3429 #f1f1f1;
+}

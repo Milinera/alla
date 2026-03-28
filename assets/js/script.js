@@ -161,3 +161,24 @@ if (btnss.length && menuss.length) {
         });
     });
 }
+
+
+//header burger
+
+const headerBut = document.querySelector('.header_mob_top_burger'),
+      headerMenu = document.querySelector('.header_mob_back'),
+      headerMob = document.querySelector('.header_mob'),
+      headermenumob = document.querySelector('.header_mob_menu_li_main'),
+      menuhead = document.querySelector('.header_mob_menu_li_pog');
+
+
+
+headerBut.addEventListener('click', () => {
+    headerBut.classList.toggle('header_mob_top_burger_active');
+    headerMenu.classList.toggle('header_mob_back_active');
+    headerMob.classList.toggle('header_mob_active');
+});
+
+headermenumob.addEventListener('click', () => {
+    menuhead.classList.toggle('header_mob_menu_li_pog_active')
+});
