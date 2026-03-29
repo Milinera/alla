@@ -20,8 +20,35 @@
         font-size: 27px;
         text-transform: uppercase;
         color: #000;
+        &_p {
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: inherit;
+            text-transform: uppercase;
+            color: inherit;
+            display: flex;
+            gap: 5px;
+            cursor: pointer;
+        }
         &_pog {
             display: none;
+            position: absolute;
+            grid-template-columns: auto auto auto;
+            top: 100%;
+            left: -20px;
+            padding: 15px 20px 5px 20px;
+            background:white;
+            flex-direction: column;
+            gap: 15px 20px;
+
+        }
+        &_main {
+            position: relative;
+            &:hover {
+                .header_li_pog {
+                    display: grid;
+                }
+            }
         }
     }
     &_mid {
